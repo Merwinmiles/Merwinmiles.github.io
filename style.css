@@ -1,0 +1,164 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.wholePage {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: #fffafb;
+}
+
+.therest {
+    display: flex;
+    height: 100%;
+
+}
+
+.header {
+    background-color: #131618;
+    position: relative;
+    color: red;
+    border-bottom-style: black solid;
+    text-align: center;
+    margin-top: 5px;
+    z-index: 1;
+    opacity: .99;
+    
+}
+
+
+.login-box {
+    position: absolute;
+    display: block;
+    padding: 20px;
+    z-index: 2;
+    border: solid 1px black;
+    width: 300px;
+    height: 175px;
+    background-color: white;
+    text-align: left;
+    border-radius: 2%;
+    box-shadow: #131618 .5px .5px 4px;
+    right: 40%;
+  }
+
+
+.profile-icon {
+    background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    right: 20px;
+    top: 30%;
+  
+}
+
+.close {
+    margin-left: 95%;
+    cursor: pointer;
+}
+
+.login-button {
+    margin-top: 20px;
+    margin-left: 80%;
+}
+
+.login {
+    color: white;
+    background-color: #4285F4;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.left {
+    display:none;
+    position:absolute;
+    background-color:#e3e1e1;
+    border-right: black solid;
+    width: 300px;
+    height: 100%;
+    margin-top: 5px;
+    z-index: 2;
+    opacity: .9;
+    animation: 3s infinite alternate slide-in;
+    
+}
+
+.right {
+    flex: 7;
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.upper-right {
+    display:flex;
+    flex-direction: row;
+}
+
+.lower-right {
+    margin-top: 5px;
+    border: solid black 2px;
+    height: 100%;
+}
+
+.menu-icon {
+    color:white;
+    position:absolute;
+    top:4%;
+    left:2%;
+    z-index: 3;
+}
+
+.menu-icon:hover {
+    cursor:pointer;
+}
+
+.material-symbols-outlined {
+    font-size: 40px !important;
+}
+
+.Username {
+    margin-top: 5%;
+}
+
+.Password {
+    margin-top: 10px;
+}
+
+.topLeft {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.rightTop {
+    margin-top: 10%;
+}
+
+.pic-div {
+    height: 250px;
+    width: 600px;
+}
+
+.dumbbell {
+    height: 100%;
+    width: 100%;
+}
+
+.clinic {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
